@@ -237,3 +237,49 @@ const CULTURAL_FALLOUT = {
         "The Doctrine of Constant Rebirth: They believe the Weaver kills and replaces them daily, hence the changes in life."
     ]
 }
+
+---
+[PROMPT 1 — WORLD CONTENT GENERATOR]
+---
+# Structured World Content (Caeloria Region)
+
+[
+  {
+    "id": "cst_plaza_01",
+    "type": "environment",
+    "location": "Caeloria Plaza",
+    "text": "The cobblestones here are unnervingly clean, despite no one having swept them in years. Shadows cast by the statue of Valerius do not follow the movement of the sun.",
+    "theme": "structural_instability"
+  },
+  {
+    "id": "cst_marcellus_dialogue_01",
+    "type": "dialogue",
+    "location": "Caeloria Plaza",
+    "npc": "Marcellus",
+    "text": "The guard post is just... gone. I swear I was sitting at that desk five minutes ago. Do you see a desk?",
+    "theme": "memory_decay",
+    "quest_log_tag": "anomaly_marcellus_lost_desk"
+  },
+  {
+    "id": "cst_shrine_whisper",
+    "type": "interaction",
+    "location": "Shrine Annex",
+    "text": "Pressing your ear against the wall of the shrine reveals the sound of thousands of people whispering names you can't quite understand, all at once.",
+    "theme": "identity_corruption"
+  },
+  {
+    "id": "cst_septimus_dialogue_02",
+    "type": "dialogue",
+    "location": "Guard Shelter",
+    "npc": "Septimus",
+    "text": "This doctrine is clear: 'If the record contradicts the reality, believe the record.' It’s the only way to stay sane in this... wherever this is.",
+    "theme": "temporal_contradiction"
+  },
+  {
+    "id": "cst_inn_environment",
+    "type": "environment",
+    "location": "Vallian Inn",
+    "text": "The air inside the inn is thick with the scent of stale ale and freshly baked bread, yet the larder has been empty for decades.",
+    "theme": "memory_decay"
+  }
+]
