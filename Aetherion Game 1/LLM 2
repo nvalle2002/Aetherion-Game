@@ -411,3 +411,119 @@ const CULTURAL_FALLOUT = {
     "player_feeling_target": "dread_and_confusion"
   }
 ]
+
+---
+[PROMPT 1 — WORLD CONTENT GENERATOR]
+---
+# Structured World Content (Caeloria Region Expansion)
+
+[
+  {
+    "id": "cst_sep_shelter_01",
+    "type": "environment",
+    "location": "Guard Shelter",
+    "text": "Dust motes dance in the air in perfect geometric formations, ignoring the draft coming from the cracked window.",
+    "theme": "structural_instability"
+  },
+  {
+    "id": "cst_elias_dialogue_01",
+    "type": "dialogue",
+    "location": "Shrine Annex",
+    "npc": "Old Elias",
+    "text": "Did you feel that? The walls just shifted. It’s trying to correct a mistake, but it doesn't know where the mistake was made.",
+    "theme": "memory_decay"
+  },
+  {
+    "id": "cst_merchant_interaction",
+    "type": "interaction",
+    "location": "Caeloria Plaza",
+    "text": "The merchant's cart smells of fresh sea salt, though Caeloria is hundreds of miles from the coast.",
+    "theme": "temporal_contradiction"
+  }
+]
+
+---
+[PROMPT 2 — NPC CREATION SYSTEM]
+---
+# NPC Profiles (Caeloria Region Expansion)
+
+[
+  {
+    "npc_id": "npc_cae_005",
+    "name": "Valerius the Younger",
+    "archetype": "civilian",
+    "location": "Caeloria Plaza",
+    "personality": "Paranoid and convinced everyone is a manifestation of his own forgotten sins.",
+    "memory_state": "corrupted",
+    "dialogue_hooks": ["inquiry_valerius_identity"],
+    "schedule_notes": "Sits on the plaza benches, avoiding eye contact.",
+    "lore_alignment": "post_empire"
+  }
+]
+
+---
+[PROMPT 3 — EVIDENCE / INVESTIGATION GENERATOR]
+---
+# Inspectable Evidence Objects (Caeloria Expansion)
+
+[
+  {
+    "evidence_id": "ev_cae_003",
+    "location": "Shrine Annex",
+    "type": "inscription",
+    "stable_description": "A worn prayer to the Imperial Sun.",
+    "corrupted_description": "The characters bleed liquid shadow, spelling out a prayer to the Weaver instead.",
+    "theme": "identity_decay",
+    "quest_log_classification": "identity_corruption"
+  }
+]
+
+---
+[PROMPT 4 — REGION / INTERIOR DESIGN CONTENT]
+---
+# Interior and Environmental Zone Data (Caeloria Expansion)
+
+[
+  {
+    "location_id": "loc_cae_shrine_interior",
+    "name": "Shrine Annex",
+    "type": "interior",
+    "aesthetic_state": "corrupted",
+    "visual_description": "The interior walls are lined with thousands of empty books. The air feels too heavy, as if saturated with unread knowledge.",
+    "interactive_elements": ["archive_shelf_glowing", "shrine_altar_cracked"],
+    "lore_significance": "A repository of failed histories, maintained by those who have forgotten why they serve.",
+    "connected_npcs": ["npc_cae_002"]
+  }
+]
+
+---
+[PROMPT 5 — LORE FRAGMENT SYSTEM]
+---
+# Lore Fragments (Caeloria Expansion)
+
+[
+  {
+    "lore_id": "lore_cae_002",
+    "source_type": "oral_tradition",
+    "content": "They say if you fall asleep in Caeloria, you wake up in a version of the village where the siege never ended.",
+    "reliability": "medium",
+    "temporal_reference": "post-cataclysm",
+    "theme": ["memory_instability", "caeloria_anomaly"]
+  }
+]
+
+---
+[PROMPT 6 — ATMOSPHERE & PERCEPTION LAYER]
+---
+# Atmospheric Perception Data (Caeloria Expansion)
+
+[
+  {
+    "zone_id": "zone_cae_plaza_main",
+    "visual_mood": "tense",
+    "lighting_description": "Harsh, unyielding sunlight that casts no shadows, making everything appear flat and artificial.",
+    "audio_suggestion": "Low, thrumming bass frequency that syncs with the player's heartbeat.",
+    "reality_perception_effect": "Sounds of distant voices are heard, then cut off abruptly.",
+    "player_feeling_target": "unsettling_calm"
+  }
+]
