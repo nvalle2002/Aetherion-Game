@@ -1,1 +1,112 @@
 LLM 2 Will Be Using This File
+
+---
+[PROMPT 1 — CAELORIA INTERIOR EXPANSION]
+---
+# Caeloria Interior Data Structures (Godot Resource Definition)
+# Note: These scenes should be instantiated as children of the CaeloriaMap node.
+
+const INTERIORS = {
+    "old_elias_home": {
+        "scene_path": "res://scenes/interiors/elias_home.tscn",
+        "aesthetic": "Vallian_Rural_Decayed",
+        "narrative_theme": "memory_instability",
+        "required_evidence": ["faded_letter_01"]
+    },
+    "guard_shelter": {
+        "scene_path": "res://scenes/interiors/septimus_shelter.tscn",
+        "aesthetic": "Vallian_Military_Rigid",
+        "narrative_theme": "military_residue",
+        "required_evidence": ["rusted_signet"]
+    },
+    "vallian_inn": {
+        "scene_path": "res://scenes/interiors/vallian_inn.tscn",
+        "aesthetic": "Late_Imperial_Comfort",
+        "narrative_theme": "forgotten_history",
+        "required_evidence": ["torn_menu_02"]
+    },
+    "storage_building": {
+        "scene_path": "res://scenes/interiors/abandoned_storage.tscn",
+        "aesthetic": "Structural_Collapse",
+        "narrative_theme": "reality_instability",
+        "required_evidence": ["void_trace_01"]
+    },
+    "shrine_annex": {
+        "scene_path": "res://scenes/interiors/shrine_annex.tscn",
+        "aesthetic": "Muted_Imperial_Archive",
+        "narrative_theme": "imperial_memory_distortion",
+        "required_evidence": ["religious_inscription_04"]
+    }
+}
+
+---
+[PROMPT 2 — NPC DAILY LIFE & MOVEMENT SYSTEM (CONTENT ONLY)]
+---
+# NPC Routine Definitions (Godot Dictionary format for RoutineManager)
+
+const NPC_ROUTINES = {
+    "Marcellus": [
+        {"time": "08:00", "location": "cst_plaza", "activity": "patrol"},
+        {"time": "12:00", "location": "vallian_inn", "activity": "eat"},
+        {"time": "18:00", "location": "cst_guard_post", "activity": "stand_guard"}
+    ],
+    "Old_Elias": [
+        {"time": "09:00", "location": "elias_home", "activity": "meditate"},
+        {"time": "14:00", "location": "shrine_annex", "activity": "search_archives"},
+        {"time": "20:00", "location": "elias_home", "activity": "sleep"}
+    ],
+    "Septimus": [
+        {"time": "07:00", "location": "guard_shelter", "activity": "maintenance"},
+        {"time": "13:00", "location": "cst_plaza", "activity": "oversight"},
+        {"time": "19:00", "location": "guard_shelter", "activity": "rest"}
+    ]
+}
+
+---
+[PROMPT 3 — ENVIRONMENTAL INSPECTABLE EXPANSION]
+---
+# Inspectable Evidence Definitions (Integrates with EvidenceSystem)
+
+const CAELORIA_EVIDENCE = {
+    "milestone_01": {"text": "A broken milestone marking 50 miles to Aurelia. The distance is scratched out and replaced with symbols that don't match standard imperial script.", "theme": "imperial_memory_distortion"},
+    "military_order_02": {"text": "An order signed by a commander who died 200 years before this outpost was built.", "theme": "temporal_contradiction"},
+    "plaque_03": {"text": "A plaque claiming Caeloria was founded in 100 AW. The stone beneath is clearly thousands of years older.", "theme": "identity_decay"},
+    "letter_04": {"text": "A letter from a mother to a son, dated 5270 AW. It warns of an event that hasn't happened yet.", "theme": "temporal_contradiction"},
+    "inscription_05": {"text": "A religious inscription to Valerius. The words are reversed and read as a plea to Hecate.", "theme": "structural_reality_instability"}
+}
+
+---
+[PROMPT 4 — ATMOSPHERIC WORLD PASS (VISUAL + FEEL ONLY)]
+---
+# Atmospheric Zone Configurations (Godot WorldEnvironment / CanvasModulate Data)
+
+const ATMOSPHERE_ZONES = {
+    "shrine_area": {
+        "modulate": Color(0.2, 0.2, 0.3),
+        "fog_density": 0.15,
+        "ambient_layer": "echoes_of_void"
+    },
+    "septimus_zone": {
+        "modulate": Color(0.4, 0.4, 0.4),
+        "fog_density": 0.05,
+        "ambient_layer": "military_march_distant"
+    },
+    "elias_zone": {
+        "modulate": Color(0.3, 0.3, 0.2),
+        "fog_density": 0.10,
+        "ambient_layer": "soft_distorted_wind"
+    }
+}
+
+---
+[PROMPT 5 — LORE EXPANSION: CAELORIA HISTORY FRAGMENTS]
+---
+# Lore Entries (Formatted for LoreSystem parsing)
+
+const LORE_FRAGMENTS = [
+    {"id": "lore_01", "content": "The annals say Caeloria was a border fort. The walls say it was an imperial tomb."},
+    {"id": "lore_02", "content": "I remember the Emperor's visit in 5260 AW. But he died in 5250 AW. Did I dream the coronation?"},
+    {"id": "lore_03", "content": "The Memory Weaver passed through yesterday. My name is gone, but I remember how to make bread."},
+    {"id": "lore_04", "content": "The sun rises in the West here. If anyone asks, it has always been this way."},
+    {"id": "lore_05", "content": "Imperial records show 48 kings. The list in the archive has 49, but the last one's name is just an ink stain."}
+]
