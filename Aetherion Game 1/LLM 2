@@ -335,3 +335,79 @@ const CULTURAL_FALLOUT = {
     "lore_alignment": "post_empire"
   }
 ]
+
+---
+[PROMPT 3 — EVIDENCE / INVESTIGATION GENERATOR]
+---
+# Inspectable Evidence Objects
+
+[
+  {
+    "evidence_id": "ev_cae_001",
+    "location": "Caeloria Plaza",
+    "type": "document",
+    "stable_description": "A faded ledger detailing local grain taxes.",
+    "corrupted_description": "The ink rearranges itself into a list of names of villagers who haven't been born yet.",
+    "theme": "temporal_contradiction",
+    "quest_log_classification": "structural_deviation"
+  },
+  {
+    "evidence_id": "ev_cae_002",
+    "location": "Old Elias's Home",
+    "type": "object",
+    "stable_description": "A silver pocket watch that has stopped ticking.",
+    "corrupted_description": "The hands move backward, and the watch feels warm as if it were beating like a heart.",
+    "theme": "structural_instability",
+    "quest_log_classification": "unknown_anomaly"
+  }
+]
+
+---
+[PROMPT 4 — REGION / INTERIOR DESIGN CONTENT]
+---
+# Interior and Environmental Zone Data
+
+[
+  {
+    "location_id": "loc_cae_inn_main",
+    "name": "Vallian Inn",
+    "type": "interior",
+    "aesthetic_state": "degraded",
+    "visual_description": "The common room is bathed in perpetual amber twilight, smelling faintly of lavender and ozone. Furniture appears newer than the walls suggest.",
+    "interactive_elements": ["fireplace_cold", "bar_counter_dusty"],
+    "lore_significance": "Formerly the hub of imperial trade; now a place where ghosts drink echoes.",
+    "connected_npcs": ["npc_cae_004"]
+  }
+]
+
+---
+[PROMPT 5 — LORE FRAGMENT SYSTEM]
+---
+# Lore Fragments
+
+[
+  {
+    "lore_id": "lore_cae_001",
+    "source_type": "corrupted_record",
+    "content": "The Restoration is not a return to past glory, but an anticipation of a future that cannot hold us.",
+    "reliability": "contradictory",
+    "temporal_reference": "pre-cataclysm",
+    "theme": ["empire_fall", "memory_instability"]
+  }
+]
+
+---
+[PROMPT 6 — ATMOSPHERE & PERCEPTION LAYER]
+---
+# Atmospheric Perception Data
+
+[
+  {
+    "zone_id": "zone_cae_shrine_annex",
+    "visual_mood": "corrupted",
+    "lighting_description": "The light seems to leak from the walls themselves, a sickly, vibrating violet.",
+    "audio_suggestion": "The sound of distant glass breaking on a loop.",
+    "reality_perception_effect": "Distance estimation becomes impossible; the room feels both claustrophobic and infinitely deep.",
+    "player_feeling_target": "dread_and_confusion"
+  }
+]
