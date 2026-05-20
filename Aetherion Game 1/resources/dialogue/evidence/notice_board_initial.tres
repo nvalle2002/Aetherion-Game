@@ -1,0 +1,5 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [{"speaker": "Observation", "text": "A notice board with a list of patrol rotations. One entry, signed by Septimus, mentions 'Defending against the Elven First Empire's Northern Incursion.' That war ended millennia ago."}]

@@ -1,0 +1,9 @@
+{
+  "project_name": "THE AETHERION",
+  "status": "PLAYABLE_VERTICAL_SLICE_V2",
+  "roadmap_focus": "COMBAT_PHASE_TWO",
+  "systems": [
+    { "name": "Combat Manager", "status": "Implemented" },
+    { "name": "Battle UI", "status": "Implemented" }
+  ]
+}

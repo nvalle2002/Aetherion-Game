@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [
+	{
+		"speaker": "???",
+		"text": "The index... it... [FRAGMENT MISSING] ...not forgetting. It is placement. Incorrect placement."
+	},
+	{
+		"speaker": "???",
+		"text": "The Weaver walks in the Second Era while his shadow falls on the Fourth. Do you see the... [UNINTELLIGIBLE] ...the overlapping edges?"
+	},
+	{
+		"speaker": "???",
+		"text": "Marcellus is a variable that has already been solved. Septimus is a loop of iron. Elias is a leaking vessel."
+	},
+	{
+		"speaker": "???",
+		"text": "You are recording the wrong... [CRITICAL ERROR] ...reality is not a sequence. It is a stack."
+	},
+	{
+		"speaker": "???",
+		"text": "Re-indexing Caeloria observation nodes... Please remain... [MISSING]"
+	}
+]
+quest_id = "obs_shrine_core"
+quest_title = "The Shrine: Anomaly Source"
+quest_type = 3
+quest_description = "The source of the distortion. It suggests reality isn't being forgotten, but incorrectly sorted. It knows Marcellus and the others by name."
+quest_confidence = 0

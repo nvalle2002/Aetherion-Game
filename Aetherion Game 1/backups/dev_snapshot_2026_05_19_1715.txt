@@ -1,0 +1,17 @@
+# THE AETHERION - DEVELOPMENT SNAPSHOT
+# TIMESTAMP: 2026_05_19_1715
+
+## CURRENT SYSTEMS IMPLEMENTED
+- Environmental Storytelling (Evidence System)
+- Evidence Objects (Base class for interactable investigation targets)
+- Evidence System Autoload (Discovery tracking)
+- 6 Playable Evidence Fragments in Caeloria (Milestone, Statue, Road, Letter, Fragments, Notice Board)
+- Reality Drift / Post-Shrine transformation for evidence (Statue example implemented)
+
+## ACTIVE SCRIPTS LIST (NEW)
+- res://scripts/core/evidence_object.gd
+- res://scripts/autoload/evidence_system.gd
+
+## SAFE RECOVERY SECTION
+- Last Known Working State: Environmental Storytelling Expansion Complete.
+- Last Successful Snapshot: dev_snapshot_2026_05_19_1715.txt

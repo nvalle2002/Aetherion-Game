@@ -1,0 +1,5 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [{"speaker": "Observation", "text": "The stones of the Imperial Road stop abruptly here, resuming three feet to the left without any transition. It is as if the road was built by two people who couldn't see each other."}]

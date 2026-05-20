@@ -1,0 +1,97 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="TileSet" path="res://assets/tilesets/caeloria_tileset.tres" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/entities/player.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dialogue_ui.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/entities/old_elias.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/entities/septimus_guard.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/entities/marcellus_traveler.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/entities/caeloria_shrine.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/ui/quest_log_ui.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/prefabs/evidence_object.tscn" id="9"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/milestone_initial.tres" id="10"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/statue_initial.tres" id="11"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/statue_post.tres" id="12"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/road_initial.tres" id="13"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/elias_letter_initial.tres" id="14"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/shrine_frags_initial.tres" id="15"]
+[ext_resource type="Resource" path="res://resources/dialogue/evidence/notice_board_initial.tres" id="16"]
+
+[node name="CaeloriaMap" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("1")
+format = 2
+layer_0/name = "Ground"
+layer_1/name = "Imperial Road"
+layer_1/tile_data = PackedInt32Array(131072, 0, 0, 131073, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0)
+layer_2/name = "Structures"
+layer_2/tile_data = PackedInt32Array(196614, 0, 1, 196615, 0, 1, 65542, 0, 1)
+
+[node name="MarcellusEntry" type="Node2D" parent="."]
+position = Vector2(20, 200)
+[node name="Marcellus" parent="MarcellusEntry" instance=ExtResource("6")]
+
+[node name="SeptimusZone" type="Node2D" parent="."]
+position = Vector2(100, 200)
+[node name="Septimus" parent="SeptimusZone" instance=ExtResource("5")]
+
+[node name="EliasZone" type="Node2D" parent="."]
+position = Vector2(320, 200)
+[node name="OldElias" parent="EliasZone" instance=ExtResource("4")]
+
+[node name="ShrineZone" type="Node2D" parent="."]
+position = Vector2(550, 100)
+[node name="CaeloriaShrine" parent="ShrineZone" instance=ExtResource("7")]
+
+[node name="Evidence" type="Node2D" parent="."]
+
+[node name="Milestone" parent="Evidence" instance=ExtResource("9")]
+position = Vector2(50, 210)
+evidence_id = "ev_milestone"
+evidence_title = "Imperial Milestone"
+classification = 1
+initial_dialogue = ExtResource("10")
+
+[node name="Statue" parent="Evidence" instance=ExtResource("9")]
+position = Vector2(350, 150)
+evidence_id = "ev_statue"
+evidence_title = "Statue of Aurelian"
+classification = 3
+initial_dialogue = ExtResource("11")
+post_shrine_dialogue = ExtResource("12")
+
+[node name="RoadSegment" parent="Evidence" instance=ExtResource("9")]
+position = Vector2(250, 200)
+evidence_id = "ev_road"
+evidence_title = "Mismatched Road"
+classification = 1
+initial_dialogue = ExtResource("13")
+
+[node name="EliasLetter" parent="Evidence" instance=ExtResource("9")]
+position = Vector2(330, 220)
+evidence_id = "ev_letter"
+evidence_title = "Personal Letter"
+classification = 2
+initial_dialogue = ExtResource("14")
+
+[node name="ShrineFrags" parent="Evidence" instance=ExtResource("9")]
+position = Vector2(530, 120)
+evidence_id = "ev_shrine_frags"
+evidence_title = "Shrine Fragments"
+classification = 3
+initial_dialogue = ExtResource("15")
+
+[node name="NoticeBoard" parent="Evidence" instance=ExtResource("9")]
+position = Vector2(120, 180)
+evidence_id = "ev_notice_board"
+evidence_title = "Guard Notice Board"
+classification = 1
+initial_dialogue = ExtResource("16")
+
+[node name="Player" parent="." instance=ExtResource("2")]
+position = Vector2(50, 220)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="DialogueUI" parent="CanvasLayer" instance=ExtResource("3")]
+[node name="QuestLogUI" parent="CanvasLayer" instance=ExtResource("8")]

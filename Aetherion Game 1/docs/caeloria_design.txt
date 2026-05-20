@@ -1,0 +1,15 @@
+# REGION: CAELORIA (VALLIA)
+# ERA: 5260 AW (Modern Crisis)
+
+## NPC: OLD ELIAS
+- Role: Village Elder / Former Roadwarden
+- Dialogue Hook: Forgetting the destination of the road he patrolled for 40 years.
+- Tone: Melancholic, confused.
+
+## NPC: SEPTIMUS THE GUARD
+- Role: Vallian Guard (House Augustus colors)
+- Dialogue Hook: Forgets his current orders but remembers imperial codes from 200 years ago (echoes in the Aether).
+
+## POINT OF INTEREST: THE OLD SHRINE
+- Description: A pre-human elven ruin repurposed as a shrine to Solari during Pax Vallia.
+- Current State: Overgrown with "Aether-touched" vines.

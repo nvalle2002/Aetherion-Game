@@ -1,0 +1,16 @@
+# THE AETHERION - DEVELOPMENT SNAPSHOT
+# TIMESTAMP: 2026_05_20_0000
+# MILESTONE: ROADMAP INTEGRATION (CAELORIA VERTICAL SLICE)
+
+## NARRATIVE STATUS
+- Roadmap integrated into master planning.
+- Core systems (Dialogue, Quest, Evidence, Combat, Persistence) aligned with 'fractured indexing' theme.
+
+## CURRENT SYSTEMS
+- All existing systems confirmed stable.
+- Vertical slice loop: Entry -> Investigation -> Corruption -> Final Anomaly.
+
+## NEXT STEPS
+- Prototype Act 1 Investigation flow (Linking evidence and NPCs).
+- Develop Act 2/3 environmental storytelling (Shifting world geography).
+- Implement boss-level distortion mechanics for the Weaver's echo.

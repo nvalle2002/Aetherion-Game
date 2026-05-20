@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/enemy_data.gd" id="1_data"]
+[resource]
+script = ExtResource("1_data")
+enemy_name = "Forgotten Watchman"
+base_health = 60
+base_attack = 8
+corruption_class = 1
+dialogue_fragments = ["Hold the line...", "The formation is broken.", "Where is the Third Legion?"]

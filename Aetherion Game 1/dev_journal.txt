@@ -1,0 +1,101 @@
+# THE AETHERION - DEVELOPMENT JOURNAL
+
+## PROJECT OVERVIEW
+- **Project Name:** THE AETHERION
+- **Genre:** 2D Top-Down JRPG
+- **Engine:** Godot Engine
+- **Aesthetic:** Pixel Art (DS-era/Chrono Trigger style)
+- **Tone:** Mythological, Historical, Melancholic, Philosophical, Spiritually Cosmic
+
+## CORE DEVELOPMENT ROADMAP
+1. [x] **Phase 1: Project Foundation & Core Systems**
+    - [x] Project Structure & Asset Organization
+    - [x] Core Player Movement (Top-down)
+    - [x] Basic Interaction System
+    - [x] Dialogue System (Lore-integrated)
+2. [ ] **Phase 2: Gameplay Infrastructure**
+    - [ ] Inventory System
+    - [ ] Quest System
+    - [ ] Save/Load System
+3. [ ] **Phase 4: Combat & World Scaling**
+    - [ ] Turn-Based Combat Prototype
+    - [ ] World Map Structure
+    - [ ] Region-Based Progression
+4. [ ] **Phase 5: Advanced Worldbuilding**
+    - [ ] NPC Scheduling
+    - [ ] Expanded Lore-Rich Content
+    - [ ] Audio & Visual Polish
+
+## COMPLETED SYSTEMS
+- [x] Lore Internalization (Initial read of Aetherion Compendium)
+- [x] Development Journal Initialization
+
+## CURRENT TASKS
+- Combat Phase 1: Engine established (CombatManager, EnemyData, Turn Logic)
+- Observer Mechanic integrated with QuestLog system
+- Implemented Reality Persistence System (Save/Load)
+- Integrated Auto-save with Anomaly Core
+- Caeloria Phase 6: Cognitive Interface Layer Complete (Quest Log UI)
+- Implemented 'Reality Drift' visual corruption in the Reconstruction Menu
+- Caeloria Phase 5: Anomaly Core Event Complete
+- Implemented Quest Log reclassification and instability at Shrine node
+- Caeloria Phase 4: Cognitive Reconstruction System Initialized (Quest Log)
+- Integrated Dialogue-to-Quest auto-trigger system
+- Implemented Marcellus the Traveler (Baseline Reality Anchor)
+- Completed Caeloria Narrative Layer 3
+- Completed Caeloria Physical Layout Phase 1
+- Implemented Physically Inconsistent Memory Space (Geography as Narrative)
+- Implemented Septimus the Guard (Structural/Military Distortion)
+- Established Dual Memory Distortion System (Forgetful vs. False Remembering)
+- Implemented Old Elias (Narrative Anchor)
+- Integrated Dialogue System with NPC Entities
+- Implementing Dialogue UI Visuals
+- Laying out Caeloria Map Structure
+- Initializing project workspace and directory structure.
+- Planning the core Godot project setup.
+
+## ARCHITECTURE NOTES
+- **Environment as Narrative:** The Caeloria map is structured to reflect cognitive distortion (e.g., mismatched road segments, asymmetrical village core).
+- **Modular Design:** Systems should be decoupled (e.g., Dialogue system should not depend directly on Player script).
+- **Lore-First:** All item descriptions, NPC names, and location data must pull from or be validated against `Aetherion.txt`.
+
+## LORE IMPLEMENTATION NOTES
+- **Reality Anchor:** Marcellus serves as the outsider perspective, confirming that the cognitive distortions in Caeloria (Elias and Septimus) are localized and supernatural anomalies, not standard world behavior.
+- **Dual Memory Distortion:** Civilian identity decay (Elias) paired with military structural corruption (Septimus) established in Caeloria region.
+- **Timeline:** The game is set in 5260 AW during the Vallian Succession Crisis.
+- **Geography:** Initial region focus likely to be Vallia (Aurelia).
+- **Races:** Ensure proper handling of Elven subtypes (High, Wood, Coastal) and Human lineages.
+
+## PENDING TASKS
+- Define the starting region and initial player "Hook".
+- Establish Godot folder structure.
+
+## SAFE RECOVERY SECTION
+- **Last Known Working State:** Phase 6 (Cognitive Interface Layer) Complete
+- **Last Successful Snapshot:** dev_snapshot_2026_05_19_1715.txt
+- **Master State File:** MASTER_STATE.json
+
+## CAELORIA EVIDENCE DEPLOYMENT
+- Implemented Evidence System (Investigative Environmental Storytelling)
+- Deployed 6 Anomaly Fragments across Caeloria map
+- Linked all evidence to Cognitive Reconstruction Engine (QuestLog)
+
+## PLAYTEST_STATUS
+- **Known Issues:** Minor jitter in QuestLog UI due to reality drift effect (intended).
+- **Stable Systems:** Core Movement, Dialogue, Quest Log, Persistence, Evidence System.
+- **Current Gameplay Length:** 5-10 minutes (Full Caeloria loop).
+- **Next Recommended Milestone:** World Expansion (New Region or Combat Prototype).
+
+
+## ROADMAP: THE AETHERION - CAELORIA
+- **Canonical Vision:** 4-8 hour narrative experience focusing on a reality-fracture caused by the Memory Weaver.
+- **Core Loop:** Investigation of memory/identity corruption leading to an abstract, disorienting final encounter.
+- **Ending Directive:** Fractured Remembrance; emotional closure without informational certainty.
+- **Scope:** Contained narrative; focused on atmosphere, emotion, and polished systems.
+
+
+## COMBAT_PHASE_TWO_STATUS
+- Battle Interface & Manager implemented.
+- Observe mechanic fully integrated into Combat system.
+- First encounter: Forgotten Watchman.
+- Status: Playable loop complete.

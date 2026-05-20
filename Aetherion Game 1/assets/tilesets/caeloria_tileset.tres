@@ -1,0 +1,31 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://dg8w5k3v2j5hb"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_1"]
+size = Vector2(64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1"]
+texture = SubResource("PlaceholderTexture2D_1")
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+1:0/0 = 0
+1:0/0/terrain_set = 0
+1:0/0/terrain = 1
+0:1/0 = 0
+0:1/0/terrain_set = 0
+0:1/0/terrain = 2
+1:1/0 = 0
+1:1/0/terrain_set = 0
+1:1/0/terrain = 3
+
+[resource]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Imperial Road"
+terrain_set_0/terrain_0/color = Color(0.5, 0.5, 0.5, 1)
+terrain_set_0/terrain_1/name = "Village Core"
+terrain_set_0/terrain_1/color = Color(0.8, 0.6, 0.4, 1)
+terrain_set_0/terrain_2/name = "Septimus Zone"
+terrain_set_0/terrain_2/color = Color(0.8, 0.2, 0.2, 1)
+terrain_set_0/terrain_3/name = "Shrine Anomaly"
+terrain_set_0/terrain_3/color = Color(0.4, 0.2, 0.6, 1)
+sources/0 = SubResource("TileSetAtlasSource_1")

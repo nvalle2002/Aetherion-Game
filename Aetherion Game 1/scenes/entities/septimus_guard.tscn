@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg8w5k3v2j5ha"]
+
+[ext_resource type="PackedScene" uid="uid://cx8w5k3v2j5h8" path="res://scenes/entities/npc.tscn" id="1_npc"]
+[ext_resource type="Resource" uid="uid://df7w5k3v2j5h1" path="res://resources/dialogue/septimus_intro.tres" id="2_dialogue"]
+
+[node name="Septimus" instance=ExtResource("1_npc")]
+npc_name = "Septimus"
+dialogue_resource = ExtResource("2_dialogue")
+
+[node name="Sprite2D" parent="." index="0"]
+modulate = Color(0.8, 0.4, 0.4, 1)

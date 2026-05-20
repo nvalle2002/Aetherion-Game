@@ -1,0 +1,11 @@
+# THE AETHERION - DEVELOPMENT SNAPSHOT
+# TIMESTAMP: 2026_05_19_2330
+
+## CURRENT SYSTEMS IMPLEMENTED
+- CombatManager singleton
+- EnemyData resources (Watchman, Pilgrim)
+- Observation combat mechanic (Lore integration)
+
+## ACTIVE SCRIPTS
+- res://scripts/combat/combat_manager.gd
+- res://scripts/combat/enemy_data.gd

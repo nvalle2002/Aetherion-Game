@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg8w5k3v2j5hg"]
+[ext_resource type="Script" path="res://scripts/core/evidence_object.gd" id="1_script"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_1"]
+radius = 16.0
+[node name="EvidenceObject" type="Area2D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_script")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_1")
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.8, 0.8, 1, 1)
+scale = Vector2(0.5, 0.5)

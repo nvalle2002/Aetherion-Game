@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8w5k3v2j5h9"]
+
+[ext_resource type="PackedScene" uid="uid://cx8w5k3v2j5h8" path="res://scenes/entities/npc.tscn" id="1_npc"]
+[ext_resource type="Resource" uid="uid://df7w5k3v2j5h0" path="res://resources/dialogue/elias_intro.tres" id="2_dialogue"]
+
+[node name="OldElias" instance=ExtResource("1_npc")]
+npc_name = "Old Elias"
+dialogue_resource = ExtResource("2_dialogue")
+
+[node name="Sprite2D" parent="." index="0"]
+modulate = Color(0.6, 0.6, 1, 1)

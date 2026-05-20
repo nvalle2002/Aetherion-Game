@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [
+	{"speaker": "Marcellus", "text": "Ho there! Careful where you step, friend. The mist is thicker than a Vallian soup today."},
+	{"speaker": "Marcellus", "text": "The name's Marcellus. Courier for the southern merchant routes."},
+	{"speaker": "Marcellus", "text": "See that ruin on the ridge? The Old Shrine? I don't care what the local legends say—that place isn't on any map I trust."}
+]
+quest_id = "obs_marcellus_baseline"
+quest_title = "Marcellus: Reality Anchor"
+quest_type = 0
+quest_description = "Marcellus confirms standard Vallian travel conditions elsewhere, noting Caeloria as uniquely 'wrong' and the Shrine as missing from trusted maps."
+quest_confidence = 2

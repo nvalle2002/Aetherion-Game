@@ -1,0 +1,48 @@
+# THE AETHERION - DEVELOPMENT SNAPSHOT
+# TIMESTAMP: 2026_05_19_1650
+
+## CURRENT SYSTEMS IMPLEMENTED
+- Core Player Movement (Physics-based, top-down)
+- Interaction Framework (Proximity-based, interface-driven)
+- Dialogue Framework (Typewriter, nameplates, portait support, manager singleton)
+- Quest Log System (Investigation-style tracking, reclassification support)
+- Quest Log UI (Reconstruction Menu with Reality Drift effects)
+
+## ACTIVE SCRIPTS LIST
+- res://scripts/entities/player.gd
+- res://scripts/core/interactable.gd
+- res://scripts/core/dialogue_resource.gd
+- res://scripts/autoload/dialogue_manager.gd
+- res://scripts/ui/dialogue_ui.gd
+- res://scripts/core/quest_entry.gd
+- res://scripts/autoload/quest_log.gd
+- res://scripts/ui/quest_log_ui.gd
+- res://scripts/entities/npc.gd
+- res://scripts/entities/shrine_anomaly.gd
+
+## SCENES CREATED
+- res://scenes/entities/player.tscn
+- res://scenes/entities/npc.tscn
+- res://scenes/entities/old_elias.tscn
+- res://scenes/entities/septimus_guard.tscn
+- res://scenes/entities/marcellus_traveler.tscn
+- res://scenes/entities/caeloria_shrine.tscn
+- res://scenes/ui/dialogue_ui.tscn
+- res://scenes/ui/quest_log_ui.tscn
+- res://worlds/vallia/caeloria_map.tscn
+
+## NPCS AND DIALOGUE RESOURCES
+- Marcellus (Baseline Anchor) -> marcellus_traveler.tres
+- Septimus (Structural Corruption) -> septimus_intro.tres
+- Old Elias (Identity Decay) -> elias_intro.tres
+- Caeloria Shrine (Anomaly Core) -> shrine_event.tres
+
+## QUESTLOG STATE SCHEMA
+- Classification: Stable Reality, Structural Deviation, Identity Corruption, Unknown Anomaly
+- Confidence: Low, Medium, High
+- Current Flag: IS_UNSTABLE = TRUE (Post-Shrine)
+- Corruption: Marcellus reclassified as Unknown Anomaly.
+
+## KNOWN ISSUES / INSTABILITY
+- UI Reality Drift active (intended).
+- Global confidence forced to LOW (intended).

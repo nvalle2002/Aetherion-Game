@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [
+	{
+		"speaker": "Old Elias",
+		"text": "Ah, traveler. You're just in time. The survey is nearly complete. The stones on the Old Road... they're finally behaving."
+	},
+	{
+		"speaker": "Old Elias",
+		"text": "Wait. No. The survey was... forty years ago? No, that can't be right. I was just holding the measuring chain. My hands were... they were younger."
+	},
+	{
+		"speaker": "Old Elias",
+		"text": "Do you feel it? The way the air tastes like old parchment? Like things are being erased? My neighbor, Thomas... he forgot how to milk his goats this morning. Just stood there, staring at his hands as if they belonged to a stranger."
+	},
+	{
+		"speaker": "Old Elias",
+		"text": "I see the road from my window. Sometimes it leads to the mountains. Sometimes it leads back into itself. It's a Vallian road, you see. Built for eternity. But eternity is... getting shorter."
+	},
+	{
+		"speaker": "Old Elias",
+		"text": "The Old Shrine up the hill... it's not a place for prayers anymore. It's a place for leaks. The Aether is thinning. Or maybe the Void is leaning in. Umbris have mercy on us."
+	},
+	{
+		"speaker": "Old Elias",
+		"text": "What were we discussing? Ah, yes. The survey. The stones... they're moving again. Please, tell the Emperor. Tell... whoever is left in Aurelia."
+	}
+]

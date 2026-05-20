@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://dg8w5k3v2j5he"]
+
+[ext_resource type="Script" path="res://scripts/entities/shrine_anomaly.gd" id="1_shrine_script"]
+[ext_resource type="Script" path="res://scripts/core/interactable.gd" id="2_interactable_script"]
+[ext_resource type="Resource" uid="uid://df7w5k3v2j5h3" path="res://resources/dialogue/shrine_event.tres" id="3_dialogue"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1"]
+radius = 40.0
+
+[node name="CaeloriaShrine" type="StaticBody2D"]
+collision_layer = 4
+script = ExtResource("1_shrine_script")
+dialogue_resource = ExtResource("3_dialogue")
+
+[node name="Visuals" type="Node2D" parent="."]
+
+[node name="Base" type="Polygon2D" parent="Visuals"]
+color = Color(0.2, 0.1, 0.3, 1)
+polygon = PackedVector2Array(-30, 30, 30, 30, 20, -40, -20, -40)
+
+[node name="Gem" type="Polygon2D" parent="Visuals"]
+position = Vector2(0, -10)
+color = Color(0.6, 0.2, 0.8, 1)
+polygon = PackedVector2Array(0, -20, 15, 0, 0, 20, -15, 0)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-30, 30, 30, 30, 20, -40, -20, -40)
+
+[node name="Interactable" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("2_interactable_script")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]
+shape = SubResource("CircleShape2D_1")

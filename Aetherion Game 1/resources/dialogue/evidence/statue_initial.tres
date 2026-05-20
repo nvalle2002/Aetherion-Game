@@ -1,0 +1,5 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [{"speaker": "Observation", "text": "A headless statue of a man in flowing robes. The base is inscribed with the name 'Aurelian.' From this angle, he looks like a king. From a step to the left, he looks like a soldier."}]

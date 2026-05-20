@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/entities/player.tscn" id="1_player"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dialogue_ui.tscn" id="2_ui"]
+[ext_resource type="PackedScene" path="res://scenes/entities/old_elias.tscn" id="3_elias"]
+[ext_resource type="PackedScene" path="res://scenes/entities/septimus_guard.tscn" id="4_septimus"]
+
+[node name="TestWorld" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_player")]
+position = Vector2(320, 180)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(0, 0, 640, 0, 640, 360, 0, 360, 0, 10, -10, 10, -10, 370, 650, 370, 650, -10, -10, -10, -10, 10, 0, 10)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="DialogueUI" parent="CanvasLayer" instance=ExtResource("2_ui")]
+
+[node name="OldElias" parent="." instance=ExtResource("3_elias")]
+position = Vector2(400, 180)
+
+[node name="Septimus" parent="." instance=ExtResource("4_septimus")]
+position = Vector2(100, 180)

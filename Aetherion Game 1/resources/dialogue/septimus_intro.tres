@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/dialogue_resource.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+dialogue_data = [
+	{
+		"speaker": "Septimus",
+		"text": "Halt. Identify yourself. You're entering Caeloria jurisdiction under the authority of House Augustus. State your business or step back."
+	},
+	{
+		"speaker": "Septimus",
+		"text": "Wait... House Augustus. Yes. We're holding the perimeter. But the formation feels... thin. Where is the Third Legion? Why hasn't the centurion signaled from the watchtower?"
+	},
+	{
+		"speaker": "Septimus",
+		"text": "Forgive me. The heat must be getting to me. There is no Legion here. Only me. And the villagers. But I can still hear the rhythmic marching of iron-shod boots at night... echoes of a Pax that ended centuries ago."
+	},
+	{
+		"speaker": "Septimus",
+		"text": "I checked the patrol maps this morning. They were... wrong. They showed roads that have been ruins for a thousand years as if they were freshly paved. My own hand wrote the report, but I don't remember holding the quill."
+	},
+	{
+		"speaker": "Septimus",
+		"text": "The Old Shrine. It's the center of the rot. I was ordered to guard it, but my mind keeps screaming that it's a 'structural anomaly.' A breach in the geometry. I feel like I'm standing on a cracked mirror."
+	},
+	{
+		"speaker": "Septimus",
+		"text": "Listen closely, traveler. Order is breaking in Caeloria. The past is bleeding through the stones, and the present is... it's fraying. Don't linger here longer than you must."
+	},
+	{
+		"speaker": "Septimus",
+		"text": "Now, proceed. But keep your eyes on the ground. If you look too long at the horizon, you might find yourself walking in a century that hasn't existed since the Fall."
+	}
+]
