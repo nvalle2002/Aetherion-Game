@@ -283,3 +283,55 @@ const CULTURAL_FALLOUT = {
     "theme": "memory_decay"
   }
 ]
+
+---
+[PROMPT 2 — NPC CREATION SYSTEM]
+---
+# NPC Profiles (Caeloria Region)
+
+[
+  {
+    "npc_id": "npc_cae_001",
+    "name": "Marcellus",
+    "archetype": "soldier",
+    "location": "Caeloria Plaza",
+    "personality": "Obsessively disciplined but increasingly anxious about structural inconsistencies.",
+    "memory_state": "fragmented",
+    "dialogue_hooks": ["anomaly_marcellus_lost_desk", "inquiry_patrol_route"],
+    "schedule_notes": "Patrols plaza during day, retreats to barracks at night.",
+    "lore_alignment": "empire_remnant"
+  },
+  {
+    "npc_id": "npc_cae_002",
+    "name": "Old Elias",
+    "archetype": "scholar",
+    "location": "Shrine Annex",
+    "personality": "Manically calm, believes reality is a draft being edited.",
+    "memory_state": "corrupted",
+    "dialogue_hooks": ["inquiry_shrine_history", "inquiry_weaver_myths"],
+    "schedule_notes": "Never leaves the archive annex.",
+    "lore_alignment": "anomalous_awareness"
+  },
+  {
+    "npc_id": "npc_cae_003",
+    "name": "Septimus",
+    "archetype": "soldier",
+    "location": "Guard Shelter",
+    "personality": "Stuck in a looping military doctrine, unaware his empire collapsed.",
+    "memory_state": "corrupted",
+    "dialogue_hooks": ["inquiry_military_doctrine", "inquiry_restoration_fleet"],
+    "schedule_notes": "Repeats patrol of guard shelter perimeter every hour.",
+    "lore_alignment": "empire_remnant"
+  },
+  {
+    "npc_id": "npc_cae_004",
+    "name": "The Wandering Merchant",
+    "archetype": "traveler",
+    "location": "Caeloria Plaza",
+    "personality": "Desperately trying to maintain normalcy, terrified of his own forgotten cargo.",
+    "memory_state": "stable",
+    "dialogue_hooks": ["inquiry_trade_routes", "inquiry_travel_anomalies"],
+    "schedule_notes": "Arrives at sunset, departs at dawn.",
+    "lore_alignment": "post_empire"
+  }
+]
