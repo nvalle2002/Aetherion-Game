@@ -110,3 +110,130 @@ const LORE_FRAGMENTS = [
     {"id": "lore_04", "content": "The sun rises in the West here. If anyone asks, it has always been this way."},
     {"id": "lore_05", "content": "Imperial records show 48 kings. The list in the archive has 49, but the last one's name is just an ink stain."}
 ]
+
+---
+[PROMPT 1 — CAELORIA “AFTER-SHRIINE SILENCE” WORLD CONTENT]
+---
+# Narrative Atmosphere Post-Shrine Event
+
+const AFTER_SHRINE_AMBIENT = [
+    "The air in Caeloria no longer carries the smell of woodsmoke; it smells like unwritten pages.",
+    "Septimus stares at a point in the wall where a door used to be, insisting he's guarding the entrance.",
+    "Footsteps on the cobblestone sound muted, as if the ground is trying to swallow the noise before it happens.",
+    "Marcellus reports seeing a group of villagers who vanished three weeks ago, but when he waves, they turn into pillars of dust.",
+    "The fountain in the plaza is dry, yet the sound of rushing water is so loud it makes ears ache.",
+    "Old Elias keeps setting the table for four, though he lives alone, and he speaks to the empty chairs as if they are answering."
+]
+
+const AFTER_SHRINE_NPC_SNIPPETS = {
+    "Marcellus": "Did you hear that? ...No, nothing. Strange, I could have sworn someone called my name in a voice I haven't heard since I was a boy.",
+    "Old_Elias": "The archives are all blank now. It’s perfect. Finally, I can write the truth instead of these contradictory lies.",
+    "Septimus": "The barricades must be reinforced. If the Restoration fleet arrives, we must be ready...Wait, who are you? I don't recognize your clearance."
+}
+
+---
+[PROMPT 2 — NPC MEMORY FRACTURE DIALOGUE PACK]
+---
+# Dialogue Variations (Memory Instability Layer)
+
+const DIALOGUE_FRACTURES = {
+    "Marcellus": [
+        "Good morning, traveler. Stay safe. The roads are—wait, have you been here before?",
+        "I'm patrolling the plaza. It's quiet. Too quiet. I feel like I've been saying that for... days? Years?",
+        "Did you see the banner? It was golden yesterday. It's blue now. Is that right?",
+        "Don't go to the Shrine. The Shrine? I don't know why I said that. I've never heard of a Shrine.",
+        "I am Marcellus. I guard this place. My father was—my father was... who was he?"
+    ],
+    "Old_Elias": [
+        "The texts say Aurelian founded the city. The texts also say he never existed. Both are true.",
+        "You have the eyes of a man who died in 5100 AW. Oh, excuse me, that hasn't happened yet.",
+        "I’ve read this book a thousand times. The ending changes every time I blink.",
+        "Memory is just a flaw in the Great Aether's design. I am lucky, I am forgetting everything.",
+        "The history here isn't written; it’s being eroded by the wind."
+    ],
+    "Septimus": [
+        "Hold! Identify yourself—no, wait, you’re cleared for Caeloria sector. Move along.",
+        "Imperial doctrine states we must hold the line. What line? I... I don't see a line.",
+        "Report to the guard post for your rations. Rations? We haven't eaten in... when was the last time we ate?",
+        "Keep moving. The Emperor is watching. Or is it the Shrine? The Shrine is watching.",
+        "Section 4 of the Code: 'Trust nothing that remembers.' Good advice. I just wish I knew who wrote it."
+    ],
+    "Traveler": [
+        "Caeloria. It’s supposed to be a sleepy village. Why does it feel like a graveyard?",
+        "I came here to trade. I brought... wait, what did I bring? I have an empty cart.",
+        "I swear I’ve walked past this same house four times now. Is the map lying to me?",
+        "Everyone here looks so... detached. Like they’re waiting for someone who already left.",
+        "I'm leaving tomorrow. If I can remember how to start the engine."
+    ]
+}
+
+---
+[PROMPT 3 — CAELORIA LOST HISTORY FRAGMENTS]
+---
+# Historical Fragments (Evidence System)
+
+const LOST_HISTORY = [
+    {"fragment_01": "Record 4812: 'Caeloria confirmed destroyed in the Siege of the North.' - Record 4813: 'Caeloria hosting Imperial Gala in honor of King Honorius.'"},
+    {"fragment_02": "Aurelian’s tomb is in Aurelia. Aurelian’s tomb is in Caeloria. Aurelian never had a tomb."},
+    {"fragment_03": "Observation Period 9: The village inhabitants were replaced by entities that mirror our own behaviors with 98% accuracy."},
+    {"fragment_04": "The Restoration is coming. The Restoration came and failed in 400 AW."},
+    {"fragment_05": "Inscriptions on the well-stone: 'We are the witnesses.' - 'We are the forgotten.' - 'We are the architects.'"}
+]
+
+---
+[PROMPT 4 — SHRINE AFTER-EFFECT ENVIRONMENTAL DETAILS]
+---
+# Anomaly Residue
+
+const SHRINE_RESIDUE = {
+    "micro_details": [
+        "A cup of tea on a table that is still steaming, despite having been abandoned for days.",
+        "Footprints in the dust that lead into a wall, but no corresponding impact on the other side.",
+        "A mirror that reflects the room, but the furniture is arranged differently than reality.",
+        "Shadows that stay cast even when the light source is covered.",
+        "The sound of a ticking clock that speeds up and slows down based on player movement.",
+        "A book that, when opened, has pages that are completely blank, but feel heavy as if filled with text.",
+        "Piles of autumn leaves that are perfectly arranged in a spiral pattern.",
+        "An iron bolt suspended in mid-air, slowly rotating."
+    ],
+    "visual_anomalies": [
+        "Flickering silhouettes of buildings that aren't there.",
+        "The sky color shifting from day to twilight in a single second.",
+        "Objects appearing blurry until looked at directly, then snapping into hyper-focus.",
+        "Text on signs becoming illegible when scanned quickly, only revealing secrets when read slowly.",
+        "Color saturation dropping to grayscale when the player enters 'dead silence' zones."
+    ],
+    "subtle_contradictions": [
+        "A flower that is blooming while frozen in a block of ice.",
+        "A door that is locked from the inside, but you can see the handle moving.",
+        "Rain that falls only on one side of a street."
+    ]
+}
+
+---
+[PROMPT 5 — WEAVER INDIRECT CULTURAL FALLOUT CONTENT]
+---
+# Indirect Fallout of the Memory Weaver
+
+const CULTURAL_FALLOUT = {
+    "folk_sayings": [
+        "Better to hold a shadow than to trust a name.",
+        "The weaver forgets, so we are free to be anyone.",
+        "When the clock stops, don't ask what time it was.",
+        "A dream remembered is a debt owed.",
+        "Don't look at the space between the stars; it looks back with empty eyes.",
+        "If you find an old letter, burn it before you read it."
+    ],
+    "incorrect_interpretations": [
+        "The villagers believe the Memory Weaver is a saint who cleanses sins.",
+        "Some claim the Weaver is just a side-effect of imperial corruption.",
+        "They think the 'erasing' is a divine test of faith.",
+        "They believe the Weaver is actually the Emperor in disguise.",
+        "The village elders think the missing memories are stored in the Shrine."
+    ],
+    "religious_interpretations": [
+        "The Cult of the Empty Page: They worship the erasure of self as the highest state of holiness.",
+        "The Archive of Whispers: A clandestine group trying to build a mental map of what has been lost.",
+        "The Doctrine of Constant Rebirth: They believe the Weaver kills and replaces them daily, hence the changes in life."
+    ]
+}
